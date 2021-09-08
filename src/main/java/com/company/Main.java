@@ -11,12 +11,11 @@ public class Main {
     }
 
     public static boolean proofLength(String string){
-       return string.length() > 20;
+       return string.length() < 20;
     }
 
     public static boolean proofFancy(String string){
         return string.contains("fancy");
     }
-
 
 }
